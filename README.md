@@ -4,6 +4,11 @@ resi-scrapper
 A package to get Indonesian Courier package tracking for PHP using curl with Zero Dependency. support : JNE, Sicepat, Anteraja
 
 
+Installation
+------------
+```
+composer require bardiz12/resi-scrapper
+```
 Usage
 ------------
 ```php
