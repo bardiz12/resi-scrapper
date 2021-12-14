@@ -1,0 +1,30 @@
+{
+    "name": "bardiz12/resi-scrapper",
+    "description": "JNE,Anteraja,Sicepat Airwaybill Tracker package",
+    "keywords": ["resi", "aiwaybill-generator","resi-tracker"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bardizba",
+            "email": "dizba.seller@gmail.com"
+        }
+    ],
+    "autoload" : {
+        "psr-4": {
+            "Bardiz12\\ResiScrapper\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "master": "1.0"
+        }
+    },
+    "minimum-stability": "dev",
+    "config": {
+        "sort-packages": true
+    }
+}
