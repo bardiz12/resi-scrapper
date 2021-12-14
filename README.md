@@ -1,7 +1,7 @@
 resi-scrapper
 =============
 
-A package to get Indonesian Courier package tracking. support : JNE, Sicepat, Anteraja
+A package to get Indonesian Courier package tracking for PHP using curl with Zero Dependency. support : JNE, Sicepat, Anteraja
 
 
 Usage
