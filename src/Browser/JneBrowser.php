@@ -25,7 +25,6 @@ class JneBrowser implements CourierInterface{
         curl_setopt($ch, CURLOPT_URL, 'https://cekresi.jne.co.id/' . $airwaybill . '/');
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($ch, CURLOPT_POST, 1);
-        curl_setopt($ch, CURLOPT_POSTFIELDS, "_token=3ObSQ9zWDljI9ytH2geLBpm2IQQVXbJmIcEtp0n4&code=060230018571321&tracking=");
         curl_setopt($ch, CURLOPT_ENCODING, 'gzip, deflate');
 
         $headers = array();
